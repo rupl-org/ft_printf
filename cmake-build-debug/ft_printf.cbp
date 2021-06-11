@@ -78,7 +78,25 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/dnovikov/Desktop/ft_printf/main.c">
+		<Unit filename="/Users/dnovikov/Desktop/ft_printf/ft_conversion_cs.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/dnovikov/Desktop/ft_printf/ft_parsing.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/dnovikov/Desktop/ft_printf/ft_parsing_conversion.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/dnovikov/Desktop/ft_printf/ft_printf.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/dnovikov/Desktop/ft_printf/ft_printf.h">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/dnovikov/Desktop/ft_printf/parsing_conversion.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/dnovikov/Desktop/ft_printf/utilities.c">
 			<Option target="ft_printf"/>
 		</Unit>
 		<Unit filename="/Users/dnovikov/Desktop/ft_printf/CMakeLists.txt">

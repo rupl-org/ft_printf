@@ -142,32 +142,167 @@ ft_printf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/build
 .PHONY : ft_printf/fast
 
-main.o: main.c.o
+ft_conversion_cs.o: ft_conversion_cs.c.o
 
-.PHONY : main.o
+.PHONY : ft_conversion_cs.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/main.c.o
-.PHONY : main.c.o
+ft_conversion_cs.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_conversion_cs.c.o
+.PHONY : ft_conversion_cs.c.o
 
-main.i: main.c.i
+ft_conversion_cs.i: ft_conversion_cs.c.i
 
-.PHONY : main.i
+.PHONY : ft_conversion_cs.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/main.c.i
-.PHONY : main.c.i
+ft_conversion_cs.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_conversion_cs.c.i
+.PHONY : ft_conversion_cs.c.i
 
-main.s: main.c.s
+ft_conversion_cs.s: ft_conversion_cs.c.s
 
-.PHONY : main.s
+.PHONY : ft_conversion_cs.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/main.c.s
-.PHONY : main.c.s
+ft_conversion_cs.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_conversion_cs.c.s
+.PHONY : ft_conversion_cs.c.s
+
+ft_parsing.o: ft_parsing.c.o
+
+.PHONY : ft_parsing.o
+
+# target to build an object file
+ft_parsing.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_parsing.c.o
+.PHONY : ft_parsing.c.o
+
+ft_parsing.i: ft_parsing.c.i
+
+.PHONY : ft_parsing.i
+
+# target to preprocess a source file
+ft_parsing.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_parsing.c.i
+.PHONY : ft_parsing.c.i
+
+ft_parsing.s: ft_parsing.c.s
+
+.PHONY : ft_parsing.s
+
+# target to generate assembly for a file
+ft_parsing.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_parsing.c.s
+.PHONY : ft_parsing.c.s
+
+ft_parsing_conversion.o: ft_parsing_conversion.c.o
+
+.PHONY : ft_parsing_conversion.o
+
+# target to build an object file
+ft_parsing_conversion.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_parsing_conversion.c.o
+.PHONY : ft_parsing_conversion.c.o
+
+ft_parsing_conversion.i: ft_parsing_conversion.c.i
+
+.PHONY : ft_parsing_conversion.i
+
+# target to preprocess a source file
+ft_parsing_conversion.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_parsing_conversion.c.i
+.PHONY : ft_parsing_conversion.c.i
+
+ft_parsing_conversion.s: ft_parsing_conversion.c.s
+
+.PHONY : ft_parsing_conversion.s
+
+# target to generate assembly for a file
+ft_parsing_conversion.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_parsing_conversion.c.s
+.PHONY : ft_parsing_conversion.c.s
+
+ft_printf.o: ft_printf.c.o
+
+.PHONY : ft_printf.o
+
+# target to build an object file
+ft_printf.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_printf.c.o
+.PHONY : ft_printf.c.o
+
+ft_printf.i: ft_printf.c.i
+
+.PHONY : ft_printf.i
+
+# target to preprocess a source file
+ft_printf.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_printf.c.i
+.PHONY : ft_printf.c.i
+
+ft_printf.s: ft_printf.c.s
+
+.PHONY : ft_printf.s
+
+# target to generate assembly for a file
+ft_printf.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_printf.c.s
+.PHONY : ft_printf.c.s
+
+parsing_conversion.o: parsing_conversion.c.o
+
+.PHONY : parsing_conversion.o
+
+# target to build an object file
+parsing_conversion.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/parsing_conversion.c.o
+.PHONY : parsing_conversion.c.o
+
+parsing_conversion.i: parsing_conversion.c.i
+
+.PHONY : parsing_conversion.i
+
+# target to preprocess a source file
+parsing_conversion.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/parsing_conversion.c.i
+.PHONY : parsing_conversion.c.i
+
+parsing_conversion.s: parsing_conversion.c.s
+
+.PHONY : parsing_conversion.s
+
+# target to generate assembly for a file
+parsing_conversion.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/parsing_conversion.c.s
+.PHONY : parsing_conversion.c.s
+
+utilities.o: utilities.c.o
+
+.PHONY : utilities.o
+
+# target to build an object file
+utilities.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/utilities.c.o
+.PHONY : utilities.c.o
+
+utilities.i: utilities.c.i
+
+.PHONY : utilities.i
+
+# target to preprocess a source file
+utilities.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/utilities.c.i
+.PHONY : utilities.c.i
+
+utilities.s: utilities.c.s
+
+.PHONY : utilities.s
+
+# target to generate assembly for a file
+utilities.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/utilities.c.s
+.PHONY : utilities.c.s
 
 # Help Target
 help:
@@ -178,9 +313,24 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ft_printf"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... ft_conversion_cs.o"
+	@echo "... ft_conversion_cs.i"
+	@echo "... ft_conversion_cs.s"
+	@echo "... ft_parsing.o"
+	@echo "... ft_parsing.i"
+	@echo "... ft_parsing.s"
+	@echo "... ft_parsing_conversion.o"
+	@echo "... ft_parsing_conversion.i"
+	@echo "... ft_parsing_conversion.s"
+	@echo "... ft_printf.o"
+	@echo "... ft_printf.i"
+	@echo "... ft_printf.s"
+	@echo "... parsing_conversion.o"
+	@echo "... parsing_conversion.i"
+	@echo "... parsing_conversion.s"
+	@echo "... utilities.o"
+	@echo "... utilities.i"
+	@echo "... utilities.s"
 .PHONY : help
 
 
