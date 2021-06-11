@@ -26,8 +26,10 @@ typedef struct	s_data
 //utilities
 short	ft_is_conversion (char chr);
 void	ft_read_number(char *format, t_data *data, int *num);
+long	ft_strlen(char *str);
 
 void	ft_conversion_c(va_list arg, const char *format, t_data *data);
+void	ft_conversion_s(va_list arg, const char *format, t_data *data);
 
 void	ft_parsing_conversion(va_list arg, char *format, t_data *data);
 void 	ft_parsing(va_list ap, char *format, t_data *data);

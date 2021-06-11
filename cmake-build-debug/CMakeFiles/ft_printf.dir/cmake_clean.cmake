@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ft_printf.dir/ft_conversion_cs.c.o"
+  "CMakeFiles/ft_printf.dir/ft_conversion_c.c.o"
+  "CMakeFiles/ft_printf.dir/ft_conversion_s.c.o"
   "CMakeFiles/ft_printf.dir/ft_parsing.c.o"
   "CMakeFiles/ft_printf.dir/ft_parsing_conversion.c.o"
   "CMakeFiles/ft_printf.dir/ft_printf.c.o"
-  "CMakeFiles/ft_printf.dir/parsing_conversion.c.o"
-  "CMakeFiles/ft_printf.dir/utilities.c.o"
+  "CMakeFiles/ft_printf.dir/ft_utilities.c.o"
   "ft_printf"
   "ft_printf.pdb"
 )

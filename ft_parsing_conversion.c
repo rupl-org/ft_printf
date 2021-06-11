@@ -3,6 +3,7 @@
 void ft_parsing_conversion(va_list arg, char *format, t_data *data)
 {
 	ft_conversion_c(arg, format, data);
+	ft_conversion_s(arg, format, data);
 //	if ((format[i] == 'd') || (format[i] == 'i') || (format[i] == 'u'))
 //	{
 //		if (flags->l)

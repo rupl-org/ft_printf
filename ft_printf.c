@@ -74,4 +74,40 @@ int	ft_printf(const char *format, ...)
 	free(data);
 	return (rtn);
 }
-//
+
+int main()
+{
+//	printf("##%d\n", ft_printf("aaa %% %#-+00100.200hh"));
+
+//	printf("%3c\n", 'a');
+//	ft_printf("%3c\n", 'a');
+//	printf("%-3c\n", 'a');
+//	ft_printf("%-3c\n", 'a');
+////	printf("%-3.1c\n", 'a');
+////	printf("%3.3c\n", 'a');
+////	printf("%+3c\n", 'a');
+////	printf("%#3c\n", 'a');
+////	printf("%03c\n", 'a');
+//	printf("%-3lc\n", 'a');
+//	ft_printf("%-3lc\n", 'a');
+////	printf("%-3llc\n", 'a');
+////	printf("%-3hc\n", 'a');
+////	printf("%-3hhc\n", 'a');
+
+//	printf("%0s\n", "a");
+	printf("%5s\n", "a");
+	printf("%-5s\n", "a");
+	printf("%5.3s\n", "a");
+	printf("%5.3s\n", "ab");
+	printf("%5.3s\n", "abc");
+//	printf("%05.3s\n", "abcd");
+	printf("%5.3s\n", "abcd");
+	printf("%5.0s\n", "abcd");
+//	printf("%#5.6s\n", "abcde");
+	printf("%-7s\n", "abcdefgh");
+//	printf("%+7.6s\n", "abcde");
+//	printf("%7.6ls\n", "abcde");
+//	printf("%7.6lls\n", "abcde");
+//	printf("%7.6hs\n", "abcde");
+//	printf("%-7.6hhs\n", "abcde");
+}

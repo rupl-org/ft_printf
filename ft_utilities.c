@@ -27,6 +27,16 @@ void	ft_read_number(char *format, t_data *data, int *num)
 	data->index--;
 }
 
+long	ft_strlen(char *str)
+{
+	long	i;
+
+	i = 0;
+	while (str[i])
+		i++;
+	return (i);
+}
+
 short	digits_in_number(long long num, short base)
 {
 	short	i;
@@ -40,15 +50,6 @@ short	digits_in_number(long long num, short base)
 	return (i);
 }
 
-int	ft_strlen(char *str)
-{
-	int	i;
-
-	i = 0;
-	while (str[i])
-		i++;
-	return (i);
-}
 
 char	*capitalize(char *str)
 {

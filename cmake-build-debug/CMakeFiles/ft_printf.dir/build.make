@@ -76,18 +76,18 @@ include CMakeFiles/ft_printf.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ft_printf.dir/flags.make
 
-CMakeFiles/ft_printf.dir/utilities.c.o: CMakeFiles/ft_printf.dir/flags.make
-CMakeFiles/ft_printf.dir/utilities.c.o: ../utilities.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dnovikov/Desktop/ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ft_printf.dir/utilities.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_printf.dir/utilities.c.o -c /Users/dnovikov/Desktop/ft_printf/utilities.c
+CMakeFiles/ft_printf.dir/ft_utilities.c.o: CMakeFiles/ft_printf.dir/flags.make
+CMakeFiles/ft_printf.dir/ft_utilities.c.o: ../ft_utilities.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dnovikov/Desktop/ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ft_printf.dir/ft_utilities.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_printf.dir/ft_utilities.c.o -c /Users/dnovikov/Desktop/ft_printf/ft_utilities.c
 
-CMakeFiles/ft_printf.dir/utilities.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_printf.dir/utilities.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dnovikov/Desktop/ft_printf/utilities.c > CMakeFiles/ft_printf.dir/utilities.c.i
+CMakeFiles/ft_printf.dir/ft_utilities.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_printf.dir/ft_utilities.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dnovikov/Desktop/ft_printf/ft_utilities.c > CMakeFiles/ft_printf.dir/ft_utilities.c.i
 
-CMakeFiles/ft_printf.dir/utilities.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_printf.dir/utilities.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dnovikov/Desktop/ft_printf/utilities.c -o CMakeFiles/ft_printf.dir/utilities.c.s
+CMakeFiles/ft_printf.dir/ft_utilities.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_printf.dir/ft_utilities.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dnovikov/Desktop/ft_printf/ft_utilities.c -o CMakeFiles/ft_printf.dir/ft_utilities.c.s
 
 CMakeFiles/ft_printf.dir/ft_parsing.c.o: CMakeFiles/ft_printf.dir/flags.make
 CMakeFiles/ft_printf.dir/ft_parsing.c.o: ../ft_parsing.c
@@ -102,22 +102,9 @@ CMakeFiles/ft_printf.dir/ft_parsing.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_printf.dir/ft_parsing.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dnovikov/Desktop/ft_printf/ft_parsing.c -o CMakeFiles/ft_printf.dir/ft_parsing.c.s
 
-CMakeFiles/ft_printf.dir/parsing_conversion.c.o: CMakeFiles/ft_printf.dir/flags.make
-CMakeFiles/ft_printf.dir/parsing_conversion.c.o: ../parsing_conversion.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dnovikov/Desktop/ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/ft_printf.dir/parsing_conversion.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_printf.dir/parsing_conversion.c.o -c /Users/dnovikov/Desktop/ft_printf/parsing_conversion.c
-
-CMakeFiles/ft_printf.dir/parsing_conversion.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_printf.dir/parsing_conversion.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dnovikov/Desktop/ft_printf/parsing_conversion.c > CMakeFiles/ft_printf.dir/parsing_conversion.c.i
-
-CMakeFiles/ft_printf.dir/parsing_conversion.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_printf.dir/parsing_conversion.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dnovikov/Desktop/ft_printf/parsing_conversion.c -o CMakeFiles/ft_printf.dir/parsing_conversion.c.s
-
 CMakeFiles/ft_printf.dir/ft_printf.c.o: CMakeFiles/ft_printf.dir/flags.make
 CMakeFiles/ft_printf.dir/ft_printf.c.o: ../ft_printf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dnovikov/Desktop/ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/ft_printf.dir/ft_printf.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dnovikov/Desktop/ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/ft_printf.dir/ft_printf.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_printf.dir/ft_printf.c.o -c /Users/dnovikov/Desktop/ft_printf/ft_printf.c
 
 CMakeFiles/ft_printf.dir/ft_printf.c.i: cmake_force
@@ -130,7 +117,7 @@ CMakeFiles/ft_printf.dir/ft_printf.c.s: cmake_force
 
 CMakeFiles/ft_printf.dir/ft_parsing_conversion.c.o: CMakeFiles/ft_printf.dir/flags.make
 CMakeFiles/ft_printf.dir/ft_parsing_conversion.c.o: ../ft_parsing_conversion.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dnovikov/Desktop/ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/ft_printf.dir/ft_parsing_conversion.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dnovikov/Desktop/ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/ft_printf.dir/ft_parsing_conversion.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_printf.dir/ft_parsing_conversion.c.o -c /Users/dnovikov/Desktop/ft_printf/ft_parsing_conversion.c
 
 CMakeFiles/ft_printf.dir/ft_parsing_conversion.c.i: cmake_force
@@ -141,37 +128,50 @@ CMakeFiles/ft_printf.dir/ft_parsing_conversion.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_printf.dir/ft_parsing_conversion.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dnovikov/Desktop/ft_printf/ft_parsing_conversion.c -o CMakeFiles/ft_printf.dir/ft_parsing_conversion.c.s
 
-CMakeFiles/ft_printf.dir/ft_conversion_cs.c.o: CMakeFiles/ft_printf.dir/flags.make
-CMakeFiles/ft_printf.dir/ft_conversion_cs.c.o: ../ft_conversion_cs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dnovikov/Desktop/ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/ft_printf.dir/ft_conversion_cs.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_printf.dir/ft_conversion_cs.c.o -c /Users/dnovikov/Desktop/ft_printf/ft_conversion_cs.c
+CMakeFiles/ft_printf.dir/ft_conversion_c.c.o: CMakeFiles/ft_printf.dir/flags.make
+CMakeFiles/ft_printf.dir/ft_conversion_c.c.o: ../ft_conversion_c.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dnovikov/Desktop/ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/ft_printf.dir/ft_conversion_c.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_printf.dir/ft_conversion_c.c.o -c /Users/dnovikov/Desktop/ft_printf/ft_conversion_c.c
 
-CMakeFiles/ft_printf.dir/ft_conversion_cs.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_printf.dir/ft_conversion_cs.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dnovikov/Desktop/ft_printf/ft_conversion_cs.c > CMakeFiles/ft_printf.dir/ft_conversion_cs.c.i
+CMakeFiles/ft_printf.dir/ft_conversion_c.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_printf.dir/ft_conversion_c.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dnovikov/Desktop/ft_printf/ft_conversion_c.c > CMakeFiles/ft_printf.dir/ft_conversion_c.c.i
 
-CMakeFiles/ft_printf.dir/ft_conversion_cs.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_printf.dir/ft_conversion_cs.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dnovikov/Desktop/ft_printf/ft_conversion_cs.c -o CMakeFiles/ft_printf.dir/ft_conversion_cs.c.s
+CMakeFiles/ft_printf.dir/ft_conversion_c.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_printf.dir/ft_conversion_c.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dnovikov/Desktop/ft_printf/ft_conversion_c.c -o CMakeFiles/ft_printf.dir/ft_conversion_c.c.s
+
+CMakeFiles/ft_printf.dir/ft_conversion_s.c.o: CMakeFiles/ft_printf.dir/flags.make
+CMakeFiles/ft_printf.dir/ft_conversion_s.c.o: ../ft_conversion_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dnovikov/Desktop/ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/ft_printf.dir/ft_conversion_s.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_printf.dir/ft_conversion_s.c.o -c /Users/dnovikov/Desktop/ft_printf/ft_conversion_s.c
+
+CMakeFiles/ft_printf.dir/ft_conversion_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_printf.dir/ft_conversion_s.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dnovikov/Desktop/ft_printf/ft_conversion_s.c > CMakeFiles/ft_printf.dir/ft_conversion_s.c.i
+
+CMakeFiles/ft_printf.dir/ft_conversion_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_printf.dir/ft_conversion_s.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dnovikov/Desktop/ft_printf/ft_conversion_s.c -o CMakeFiles/ft_printf.dir/ft_conversion_s.c.s
 
 # Object files for target ft_printf
 ft_printf_OBJECTS = \
-"CMakeFiles/ft_printf.dir/utilities.c.o" \
+"CMakeFiles/ft_printf.dir/ft_utilities.c.o" \
 "CMakeFiles/ft_printf.dir/ft_parsing.c.o" \
-"CMakeFiles/ft_printf.dir/parsing_conversion.c.o" \
 "CMakeFiles/ft_printf.dir/ft_printf.c.o" \
 "CMakeFiles/ft_printf.dir/ft_parsing_conversion.c.o" \
-"CMakeFiles/ft_printf.dir/ft_conversion_cs.c.o"
+"CMakeFiles/ft_printf.dir/ft_conversion_c.c.o" \
+"CMakeFiles/ft_printf.dir/ft_conversion_s.c.o"
 
 # External object files for target ft_printf
 ft_printf_EXTERNAL_OBJECTS =
 
-ft_printf: CMakeFiles/ft_printf.dir/utilities.c.o
+ft_printf: CMakeFiles/ft_printf.dir/ft_utilities.c.o
 ft_printf: CMakeFiles/ft_printf.dir/ft_parsing.c.o
-ft_printf: CMakeFiles/ft_printf.dir/parsing_conversion.c.o
 ft_printf: CMakeFiles/ft_printf.dir/ft_printf.c.o
 ft_printf: CMakeFiles/ft_printf.dir/ft_parsing_conversion.c.o
-ft_printf: CMakeFiles/ft_printf.dir/ft_conversion_cs.c.o
+ft_printf: CMakeFiles/ft_printf.dir/ft_conversion_c.c.o
+ft_printf: CMakeFiles/ft_printf.dir/ft_conversion_s.c.o
 ft_printf: CMakeFiles/ft_printf.dir/build.make
 ft_printf: CMakeFiles/ft_printf.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/dnovikov/Desktop/ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable ft_printf"

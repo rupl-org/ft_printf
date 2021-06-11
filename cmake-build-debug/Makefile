@@ -142,32 +142,59 @@ ft_printf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/build
 .PHONY : ft_printf/fast
 
-ft_conversion_cs.o: ft_conversion_cs.c.o
+ft_conversion_c.o: ft_conversion_c.c.o
 
-.PHONY : ft_conversion_cs.o
+.PHONY : ft_conversion_c.o
 
 # target to build an object file
-ft_conversion_cs.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_conversion_cs.c.o
-.PHONY : ft_conversion_cs.c.o
+ft_conversion_c.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_conversion_c.c.o
+.PHONY : ft_conversion_c.c.o
 
-ft_conversion_cs.i: ft_conversion_cs.c.i
+ft_conversion_c.i: ft_conversion_c.c.i
 
-.PHONY : ft_conversion_cs.i
+.PHONY : ft_conversion_c.i
 
 # target to preprocess a source file
-ft_conversion_cs.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_conversion_cs.c.i
-.PHONY : ft_conversion_cs.c.i
+ft_conversion_c.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_conversion_c.c.i
+.PHONY : ft_conversion_c.c.i
 
-ft_conversion_cs.s: ft_conversion_cs.c.s
+ft_conversion_c.s: ft_conversion_c.c.s
 
-.PHONY : ft_conversion_cs.s
+.PHONY : ft_conversion_c.s
 
 # target to generate assembly for a file
-ft_conversion_cs.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_conversion_cs.c.s
-.PHONY : ft_conversion_cs.c.s
+ft_conversion_c.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_conversion_c.c.s
+.PHONY : ft_conversion_c.c.s
+
+ft_conversion_s.o: ft_conversion_s.c.o
+
+.PHONY : ft_conversion_s.o
+
+# target to build an object file
+ft_conversion_s.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_conversion_s.c.o
+.PHONY : ft_conversion_s.c.o
+
+ft_conversion_s.i: ft_conversion_s.c.i
+
+.PHONY : ft_conversion_s.i
+
+# target to preprocess a source file
+ft_conversion_s.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_conversion_s.c.i
+.PHONY : ft_conversion_s.c.i
+
+ft_conversion_s.s: ft_conversion_s.c.s
+
+.PHONY : ft_conversion_s.s
+
+# target to generate assembly for a file
+ft_conversion_s.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_conversion_s.c.s
+.PHONY : ft_conversion_s.c.s
 
 ft_parsing.o: ft_parsing.c.o
 
@@ -250,59 +277,32 @@ ft_printf.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_printf.c.s
 .PHONY : ft_printf.c.s
 
-parsing_conversion.o: parsing_conversion.c.o
+ft_utilities.o: ft_utilities.c.o
 
-.PHONY : parsing_conversion.o
-
-# target to build an object file
-parsing_conversion.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/parsing_conversion.c.o
-.PHONY : parsing_conversion.c.o
-
-parsing_conversion.i: parsing_conversion.c.i
-
-.PHONY : parsing_conversion.i
-
-# target to preprocess a source file
-parsing_conversion.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/parsing_conversion.c.i
-.PHONY : parsing_conversion.c.i
-
-parsing_conversion.s: parsing_conversion.c.s
-
-.PHONY : parsing_conversion.s
-
-# target to generate assembly for a file
-parsing_conversion.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/parsing_conversion.c.s
-.PHONY : parsing_conversion.c.s
-
-utilities.o: utilities.c.o
-
-.PHONY : utilities.o
+.PHONY : ft_utilities.o
 
 # target to build an object file
-utilities.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/utilities.c.o
-.PHONY : utilities.c.o
+ft_utilities.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_utilities.c.o
+.PHONY : ft_utilities.c.o
 
-utilities.i: utilities.c.i
+ft_utilities.i: ft_utilities.c.i
 
-.PHONY : utilities.i
+.PHONY : ft_utilities.i
 
 # target to preprocess a source file
-utilities.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/utilities.c.i
-.PHONY : utilities.c.i
+ft_utilities.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_utilities.c.i
+.PHONY : ft_utilities.c.i
 
-utilities.s: utilities.c.s
+ft_utilities.s: ft_utilities.c.s
 
-.PHONY : utilities.s
+.PHONY : ft_utilities.s
 
 # target to generate assembly for a file
-utilities.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/utilities.c.s
-.PHONY : utilities.c.s
+ft_utilities.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_utilities.c.s
+.PHONY : ft_utilities.c.s
 
 # Help Target
 help:
@@ -313,9 +313,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ft_printf"
-	@echo "... ft_conversion_cs.o"
-	@echo "... ft_conversion_cs.i"
-	@echo "... ft_conversion_cs.s"
+	@echo "... ft_conversion_c.o"
+	@echo "... ft_conversion_c.i"
+	@echo "... ft_conversion_c.s"
+	@echo "... ft_conversion_s.o"
+	@echo "... ft_conversion_s.i"
+	@echo "... ft_conversion_s.s"
 	@echo "... ft_parsing.o"
 	@echo "... ft_parsing.i"
 	@echo "... ft_parsing.s"
@@ -325,12 +328,9 @@ help:
 	@echo "... ft_printf.o"
 	@echo "... ft_printf.i"
 	@echo "... ft_printf.s"
-	@echo "... parsing_conversion.o"
-	@echo "... parsing_conversion.i"
-	@echo "... parsing_conversion.s"
-	@echo "... utilities.o"
-	@echo "... utilities.i"
-	@echo "... utilities.s"
+	@echo "... ft_utilities.o"
+	@echo "... ft_utilities.i"
+	@echo "... ft_utilities.s"
 .PHONY : help
 
 
