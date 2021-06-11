@@ -75,32 +75,3 @@ int	ft_printf(const char *format, ...)
 	return (rtn);
 }
 //
-//int main()
-//{
-////	printf("##%d\n", ft_printf("aaa %% %#-+00100.200hh"));
-//	printf("%3c\n", 'a');
-//	ft_printf("%3c\n", 'a');
-//	printf("%-3c\n", 'a');
-//	ft_printf("%-3c\n", 'a');
-////	printf("%-3.1c\n", 'a');
-////	printf("%3.3c\n", 'a');
-////	printf("%+3c\n", 'a');
-////	printf("%#3c\n", 'a');
-////	printf("%03c\n", 'a');
-//	printf("%-3lc\n", 'a');
-//	ft_printf("%-3lc\n", 'a');
-////	printf("%-3llc\n", 'a');
-////	printf("%-3hc\n", 'a');
-////	printf("%-3hhc\n", 'a');
-//
-////	printf("%5c\n", 'a');
-////	printf("%5.3s\n", "a");
-////	printf("%5.3s\n", "ab");
-////	printf("%5.3s\n", "abc");
-//////	printf("%05.3s\n", "abcd"); -> UB
-////	printf("%5.3s\n", "abcd");
-//////	printf("%#5.6s\n", "abcde"); -> UB
-////	printf("%-7.6s\n", "abcde");
-//////	printf("%+7.6s\n", "abcde");  -> UB
-//////	printf("%-7.6hhs\n", "abcde"); -> UB
-//}
